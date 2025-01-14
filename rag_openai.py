@@ -8,17 +8,12 @@ import tempfile
 import time
 import uuid
 from dotenv import load_dotenv
-# from IPython.display import Markdown, display
 load_dotenv()
 from llama_index.core import Settings
-from llama_index.llms.ollama import Ollama
-
 from llama_index.llms.openai import OpenAI
 from llama_index.core import PromptTemplate
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-
 from llama_index.embeddings.openai import OpenAIEmbedding
-from llama_index.core import VectorStoreIndex, ServiceContext, SimpleDirectoryReader
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 
 import streamlit as st
 
