@@ -8,7 +8,7 @@ import tempfile
 import time
 import uuid
 from dotenv import load_dotenv
-from IPython.display import Markdown, display
+# from IPython.display import Markdown, display
 load_dotenv()
 from llama_index.core import Settings
 from llama_index.llms.ollama import Ollama
